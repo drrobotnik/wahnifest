@@ -1,0 +1,48 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "editor-style.css": {
+      "files": [
+        "styles/editor-style.scss"
+      ]
+    },
+    "icons.data.png.css": {
+      "files": [
+        "styles/icons.data.png.css"
+      ]
+    },
+    "icons.data.svg.css": {
+      "files": [
+        "styles/icons.data.svg.css"
+      ]
+    },
+    "icons.fallback.css": {
+      "files": [
+        "styles/icons.fallback.css"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "modernizr.js": {
+      "bower": ["modernizr"]
+    },
+    "grunticon.js": {
+      "bower": ["grunticon"]
+    }
+  },
+  "config": {
+    "devUrl": "http://example.dev"
+  }
+}

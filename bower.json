@@ -1,0 +1,48 @@
+{
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "modernizr": "2.8.2",
+    "slick-carousel": "~1.5.5",
+    "60fps-scroll": "~0.1.1",
+    "jquery.breakpoints2": "*",
+    "inuit.css": "~5.0.1",
+    "grunticon": "https://github.com/filamentgroup/grunticon.git#~2.1.6",
+    "inuit-responsive-tools": "~0.1.3",
+    "fontawesome": "~4.3.0",
+    "owl.carousel": "~2.0.0-beta.3",
+    "masonry": "~3.3.1"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "./modernizr.js"
+    },
+    "60fps-scroll": {
+      "main": []
+    },
+    "inuit.css": {
+      "main": []
+    },
+    "fontawesome": {
+      "main": [
+        "./scss/font-awesome.scss",
+        "./fonts/*"
+      ]
+    },
+    "jquery.breakpoints2": {
+      "main": [
+        "./breakpoints.js"
+      ]
+    },
+    "grunticon": {
+      "main": [
+      "./site/grunticon/grunticon.loader.js"
+      ]
+    }
+  }
+}
